@@ -3,11 +3,11 @@
 
 ```
 ./data:                   
-	ctb5:					# ctb5数据文件
+	ctb5:			  # ctb5数据文件
 	ctb7:                     # ctb7数据文件
 ./embedding:
 	base_embeddings_50.txt    # 50维预训练词向量
-	embed_100.txt			 # 100维预训练词向量
+	embed_100.txt		  # 100维预训练词向量
 ./result:                 
 	bicharlstmcrf.pkl         # 保存模型文件
 	BicharLSTMCRF.txt         # 运行结果文件
@@ -18,7 +18,7 @@
 	crf.py                    # crf模块代码
 	lstm.py                   # lstm代码
 	run.py                    # 运行代码
-./README.md                    # 使用说明
+./README.md                       # 使用说明
 ```
 
 
@@ -36,8 +36,8 @@ pytorch 0.4
 
 ```bash
 $ cd ./src
-$ vim config.py                #修改配置文件
-$ python run.py                #运行代码
+$ vim config.py                   #修改配置文件
+$ python run.py                   #运行代码
 ```
 
 
